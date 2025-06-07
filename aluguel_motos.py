@@ -1,3 +1,5 @@
+from datetime import datetime, timezone
+
 # Lista que armazena as motos disponíveis para aluguel
 Motos = []
 
@@ -92,8 +94,9 @@ def alugar_moto():
             nome = input("Digite o Nome do Locatario: ")
             moto = Motos.pop(escolha - 1)  # Remove da lista de disponíveis
             moto['nome'] = nome            # Adiciona o nome do locatário
+            moto['data'] = datetime.now().strftime("%d/%m/%Y - %H:%M")
             MotosAlugadas.append(moto)     # Envia para a lista de alugadas
-            print(f"{moto['modelo']} Alugada com Sucesso para {nome}")
+            print(f"{moto['modelo']} Alugada com Sucesso para {nome} | Data: {moto['data']}")
         else:
             print("Opção Invalida!")
     except ValueError:
@@ -133,7 +136,7 @@ def lista_alugadas():
         print("\tMotos Alugadas - RM LTDA")
         print("" + "="*40)
         for i, moto in enumerate(MotosAlugadas, start=1):
-            print(f"{i} - Nome: {moto['nome']} - Modelo: {moto['modelo']} - Placa: {moto['placa']}")
+            print(f"{i} - Nome: {moto['nome']} - Modelo: {moto['modelo']} - Placa: {moto['placa']} | Data: {moto['data']}")
 
 # Busca uma moto pelo nome do locatário ou pela placa
 def localizar_moto():
