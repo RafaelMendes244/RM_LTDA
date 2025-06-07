@@ -38,7 +38,7 @@ Este projeto foi desenvolvido com o intuito de:
 ## 📷 Demonstração
 
 ```bash
-$ python rm_motos.py
+$ python aluguel_motos.py
 
 ========================================
 	Bem Vindo - RM Motos LTDA
@@ -63,7 +63,7 @@ $ python rm_motos.py
    ```
 3. Execute o script:
    ```bash
-   python rm_motos.py
+   python aluguel_motos.py
    ```
 
 > Nenhuma biblioteca externa é necessária. O projeto roda diretamente com Python 3 instalado.
