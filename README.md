@@ -1,74 +1,65 @@
-# 🅿️ Estacionamento Digital - RM Motos LTDA (Frontend)
+# 🅿️ Estacionamento Digital - RM LTDA (Frontend)
 
 Seja bem-vindo ao projeto **Estacionamento Digital**!  
-Este sistema é uma aplicação web simples, desenvolvida com **HTML, CSS e JavaScript**, focada no controle de vagas de um estacionamento de motos.
+Este sistema é uma aplicação web completa para gestão de estacionamentos, desenvolvida com HTML, CSS e JavaScript, permitindo o controle eficiente de veículos estacionados.
 
----
+## 🚀 Funcionalidades Principais
 
-## 🚩 Funcionalidades
+- 🚗 **Estacionar Veículos:** Cadastro completo com nome do proprietário e placa do veículo
+- ⏱️ **Registro Automático:** Data e hora de entrada registradas automaticamente
+- 🔍 **Busca Avançada:** Localize veículos por nome do proprietário ou placa
+- 📋 **Listagem Completa:** Visualize todos os veículos estacionados em formato organizado
+- ↔️ **Devolução de Veículos:** Remoção segura com confirmação
+- 📋 **Copiar Placas:** Funcionalidade prática para cópia de placas ao clicar
+- 🛡️ **Validações:** Impede cadastro de placas duplicadas e campos vazios
 
-- 🏍️ Cadastro de veículos (placa e modelo)
-- ⏱️ Registro de entrada com data e hora automática
-- 🚦 Remoção de veículos, registrando o tempo de permanência
-- 📋 Listagem automática dos veículos estacionados
-- 💾 Armazenamento local via **LocalStorage** (não perde dados ao recarregar a página)
-- ⚠️ Validação de campos e alertas de interação
+## 💻 Stack Tecnológica
 
----
+### Frontend
+- HTML5 semântico
+- CSS3 com Flexbox/Grid para layout responsivo
+- JavaScript Vanilla (ES6+)
 
-## 💻 Tecnologias Utilizadas
+### Design
+- UI moderna com sombras e transições suaves
+- Totalmente responsivo (mobile-first)
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- LocalStorage (persistência no navegador)
+### Armazenamento
+- Dados persistidos em memória durante a sessão
 
----
+## 🛠️ Como Executar
 
-## 🔥 Como usar
+1. Clone o projeto ou faça download dos arquivos:
+    ```bash
+    git clone https://github.com/RafaelMendes244/RM_LTDA.git -b frontend
+    ```
+2. Abra o arquivo `index.html`
+3. Basta abrir no navegador de sua preferência - nenhuma instalação adicional é necessária!
 
-1. **Clone o repositório e acesse a branch frontend:**
-   ```bash
-   git clone https://github.com/RafaelMendes244/RM_LTDA.git
-   cd RM_LTDA
-   git checkout frontend
-   ```
+4. **Comece a usar:**  
+   Selecione uma opção no menu e gerencie seu estacionamento!
 
-2. **Abra o arquivo `index.html` no seu navegador**  
-   Não é necessário nenhum servidor ou instalação de dependências!
+## 🎨 Design e Usabilidade
 
----
+- ✔️ Interface intuitiva com fluxo linear de operações
+- ✔️ Feedback visual imediato para todas as ações
+- ✔️ Paleta de cores profissional e acessível
+- ✔️ Animações suaves para melhor experiência do usuário
+- ✔️ Layout adaptável para todos os tamanhos de tela
 
-## 🖼️ Demonstração
-
-> Adicione aqui prints ou GIFs do sistema em funcionamento para deixar seu README ainda mais atrativo!
-
----
-
-## 🚀 Próximos Passos
-
-- [ ] Responsividade para dispositivos móveis
-- [ ] Filtro de busca por placa/modelo
-- [ ] Exportação de relatórios
-- [ ] Integração com backend (futuro)
-
----
-
-## 👤 Autor
+## 👨‍💻 Autor
 
 **Rafael Mendes**  
-Desenvolvedor Frontend | Projetos Autorais  
-[LinkedIn](https://www.linkedin.com/in/fael-mendesdev/)
+Desenvolvedor Full Stack | Especialista em Soluções Digitais  
+[GitHub](https://github.com/RafaelMendes244) | [LinkedIn](https://www.linkedin.com/in/fael-mendesdev/)
 
----
+## 📜 Licença
 
-## 📄 Licença
+Este projeto é open-source sob licença MIT. Use livremente para fins educacionais ou comerciais.
 
-Este projeto é de livre uso para fins educacionais.
+## 💬 Feedback
 
----
+Encontrou um bug? Tem uma sugestão?  
+Abra uma issue ou contribua com um PR!
 
-## ⭐ Gostou do projeto?
-
-Deixe uma estrela ⭐, contribua e compartilhe!  
-Sugestões e melhorias são sempre bem-vindas.
+⭐ Se achou útil, deixe sua estrela no repositório! ⭐
